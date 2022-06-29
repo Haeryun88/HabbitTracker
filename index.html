@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>해륜의 포트폴리오</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./Modules/2_js/Main_index.js"></script>
+    <script src="./Modules/4_fullpage/jquery.fullpage.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8e7abb3f71.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Modules/1_css/styles.css" />
+    <link rel="stylesheet" href="./Modules/4_fullpage/jquery.fullpage.css" />
+  </head>
+  <body>
+    <!-- 메뉴 공통 -->
+    <nav id="menu">
+      <a
+        class="menu-links hideme"
+        data-menuanchor="firstPage"
+        href="#firstPage"
+        id="mn01"
+      >
+        <i class="fa-solid fa-star"></i><br />Intro</a
+      >
+      <a
+        class="menu-links"
+        data-menuanchor="secondPage"
+        href="#secondPage"
+        id="mn02"
+      >
+        <i class="fa-solid fa-desktop"></i><br />Skills</a
+      >
+      <a class="menu-links" data-menuanchor="3rdPage" href="#3rdPage" id="mn03">
+        <i class="fa-solid fa-arrow-pointer"></i><br />Career</a
+      >
+      <a class="menu-links" data-menuanchor="4thpage" href="#4thpage" id="mn04">
+        <i class="fa-solid fa-folder-open"></i><br />Project</a
+      >
+      <a
+        class="menu-links"
+        data-menuanchor="lastPage"
+        href="#lastPage"
+        id="mn05"
+      >
+        <i class="fa-solid fa-envelope"></i><br />Contact</a
+      >
+    </nav>
+    <div id="fullpage">
+      <!-- 섹션 0 : 인트로-->
+      <div class="section" id="section0">
+        <div calss="sc0_Bg">
+          <div id="root">
+            Hello :
+            <span class="content"></span>
+          </div>
+          <h1>
+            <span class="line">프론트엔드</span>
+            개발자
+          </h1>
+          <h1>김정숙 입니다</h1>
+        </div>
+      </div>
+
+      <!-- 섹션 1 : 스킬-->
+      <div class="section" id="section1">
+        <h1 id="skills">SKILLS</h1>
+        <div class="graph-wrapper">
+          <div class="percent-indicator">
+            <div class="per-0"></div>
+            <div class="per-20"></div>
+            <div class="per-40"></div>
+            <div class="per-60"></div>
+            <div class="per-80"></div>
+            <div class="per-100"></div>
+          </div>
+          <ul class="graph">
+            <li class="item1 p-100"></li>
+            <li class="item2 p-95"></li>
+            <li class="item3 p-85"></li>
+            <li class="item4 p-80"></li>
+            <li class="item5 p-70"></li>
+            <li class="item6 p-75"></li>
+            <li class="item7 p-70"></li>
+            <li class="item8 p-100"></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 섹션 2 : 커리어-->
+      <div class="section" id="section2">
+        <div class="sc2-title">
+          <h1>Career</h1>
+          <hr />
+        </div>
+
+        <div class="sec2-contents">
+          <div class="sc2t sc2-text1">
+            <h4>💻 학력 💻</h4>
+            <p>대구대학교 문헌정보학과 졸업</p>
+            <p>영진직업전문학교 OPEN API 를 활용한 웹앱 실무자 양성과정 수료</p>
+          </div>
+          <div class="sc2t sc2-text2">
+            <h4>🏆 수상내역 🏆</h4>
+            <p>디지털 혁신공유대학사업 OPEN API 활용 경진대회 - 금상</p>
+          </div>
+          <div class="sc2t sc2-text2">
+            <h4>🎵 성격 및 장점 🎵</h4>
+            <p>자기주도적으로 문제를 찾고자 하는 성격입니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 섹션 3 : 프로젝트-->
+      <div class="section" id="section3">
+        <h1>PROJECT</h1>
+
+        <div class="tab">
+          <ul class="tabnav">
+            <li>
+              <a href="#tab01">Frontend</a>
+            </li>
+            <li>
+              <a href="#tab02">Design</a>
+            </li>
+          </ul>
+          <div class="tabcontent">
+            <div class="tabimg" id="tab01">
+              <!--item01 start-->
+              <figure class="snip1552">
+                <img
+                  src="./Modules/3_images/Site_image_01.png"
+                  alt="sample91"
+                />
+                <figcaption>
+                  <h3>위드닥 WithDoc</h3>
+                  <p>#디자인</p>
+                  <p>#퍼블리싱</p>
+                </figcaption>
+                <a href="./Projects/Project01/Index.html"></a>
+              </figure>
+              <!--item01 end-->
+              <!--item01 start-->
+              <figure class="snip1552">
+                <img
+                  src="./Modules/3_images/Site_image_02.png"
+                  alt="sample91"
+                />
+                <figcaption>
+                  <h3>가구점 안락 Anlak</h3>
+                  <p>#디자인</p>
+                  <p>#퍼블리싱</p>
+                </figcaption>
+                <a href="./Projects/Project02/index.html"></a>
+              </figure>
+              <!--item01 end-->
+              <!--item01 start-->
+              <figure class="snip1552">
+                <img
+                  src="./Modules/3_images/Site_image_05.png"
+                  alt="sample91"
+                />
+                <figcaption>
+                  <h3>고스트북스 Main</h3>
+                  <p>#프론트엔드</p>
+                  <p>#퍼블리싱</p>
+                </figcaption>
+                <a href="./Projects/Project05/index.html"></a>
+              </figure>
+              <!--item01 end-->
+              <!--item01 start-->
+              <figure class="snip1552">
+                <img
+                  src="./Modules/3_images/Site_image_06.png"
+                  alt="sample91"
+                />
+                <figcaption>
+                  <h3>고스트북스 subpage</h3>
+                  <p>#프론트엔드</p>
+                  <p>#퍼블리싱</p>
+                </figcaption>
+                <a href="./Projects/Project05/index_sub.html"></a>
+              </figure>
+              <!--item01 end-->
+              <!--item01 start-->
+              <figure class="snip1552">
+                <img
+                  src="./Modules/3_images/Site_image_08.png"
+                  alt="sample91"
+                />
+                <figcaption>
+                  <h3>애니웨어 Aniwhere</h3>
+                  <p>#프론트엔드</p>
+                  <p>#기획 & 디자인</p>
+                </figcaption>
+                <a href="https://aniwhere.herokuapp.com/"></a>
+              </figure>
+              <!--item01 end-->
+            </div>
+            <div id="tab02">
+              <!--item01 start-->
+              <figure class="snip1552">
+                <img
+                  src="./Modules/3_images/Site_image_03.png"
+                  alt="sample91"
+                />
+                <figcaption>
+                  <h3>영진직업학교 Mainpage</h3>
+                  <p>#OPEN API</p>
+                  <p>#기획</p>
+                </figcaption>
+                <a href="./Projects/Project03/MainPage_index.html"></a>
+              </figure>
+              <!--item01 end-->
+              <!--item01 start-->
+              <figure class="snip1552">
+                <img
+                  src="./Modules/3_images/Site_image_04.png"
+                  alt="sample91"
+                />
+                <figcaption>
+                  <h3>영진직업학교 Subpage</h3>
+                  <p>#OPEN API</p>
+                  <p>#기획</p>
+                </figcaption>
+                <a href="./Projects/Project04/SubPage_index.html"></a>
+              </figure>
+              <!--item01 end-->
+              <!--item01 start-->
+              <figure class="snip1552">
+                <img
+                  src="./Modules/3_images/Site_image_07.png"
+                  alt="sample91"
+                />
+                <figcaption>
+                  <h3>Sinn 리디자인</h3>
+                  <p>#디자인</p>
+                  <p>#기획</p>
+                </figcaption>
+                <a href="./Projects/Project06/index.html"></a>
+              </figure>
+              <!--item01 end-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 섹션 4 : 커넥트-->
+      <div class="section" id="section4">
+        <h1>Connect</h1>
+        <form
+          class="gform"
+          method="POST"
+          data-email="haeryun805@gmail.com"
+          action="https://script.google.com/macros/s/AKfycbwGL03-kCmCa1_oD6K-Kr7X-Zxk8qHCN8CP8FWj/exec"
+        >
+          <input
+            class="input01"
+            type="text"
+            name="name"
+            placeholder="이름"
+            required="required"
+          />
+          <input
+            class="input02"
+            type="text"
+            name="email"
+            placeholder="id@email.com"
+            required="required"
+          /><br />
+          <input
+            class="input03"
+            id="comment"
+            type="text"
+            name="message"
+            placeholder="코멘트를 입력해주세요"
+            required="required"
+          />
+          <input class="input04" type="submit" value="보내기" />
+          <input class="input05" type="reset" value="리셋" />
+        </form>
+        <div id="wave-box">
+          <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  $(document).ready(function () {
+    $("#fullpage").fullpage({
+      verticalCentered: true,
+      anchors: ["firstPage", "secondPage", "3rdPage", "4thpage", "lastPage"],
+      menu: "#menu",
+      navigation: false,
+      responsiveWidth: 768,
+      afterResponsive: function (isResponsive) {},
+    });
+  });
+
+  (function ($) {
+    "use strict";
+    $(function () {
+      function animated_contents() {
+        $(".zt-skill-bar > div ").each(function (i) {
+          var $this = $(this),
+            skills = $this.data("width");
+
+          $this.css({
+            width: skills + "%",
+          });
+        });
+      }
+
+      if (jQuery().appear) {
+        $(".zt-skill-bar")
+          .appear()
+          .on("appear", function () {
+            animated_contents();
+          });
+      } else {
+        animated_contents();
+      }
+    });
+  })(jQuery);
+</script>
