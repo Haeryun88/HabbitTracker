@@ -1,8 +1,9 @@
-import logo from "./logo.svg";
-import "./App.css";
-
-function App() {
-  return <h1>Hello :)</h1>;
+import React, { Component } from "react";
+import Habit from "./Components/Habit";
+class App extends Component {
+  render() {
+    return <Habit />;
+  }
 }
 
 export default App;
